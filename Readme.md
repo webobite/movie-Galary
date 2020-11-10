@@ -1,3 +1,3 @@
 ### Movie Gallary Component for react native
 
-![alt text](screenshots\Movie_gallary.png)
+![alt text](https://github.com/webobite/movie-Galary/blob/master/screenshots/Movie_gallary.png)
