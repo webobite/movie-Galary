@@ -1,5 +1,5 @@
-/* eslint-disable react-native/no-inline-styles */
 /* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {Container, Thumbnail} from 'native-base';
 import React, {useEffect, useState} from 'react';
@@ -74,26 +74,28 @@ const MovieSelectionScreen = () => {
             // scaleX={1.5}
             // scaleY={2.5}
             small
-            size = {10}
+            size={10}
             square
-            style ={{
-              marginBottom : 9,
-              width : 101,
-              height : 90,
+            style={{
+              marginBottom: 9,
+              width: 101,
+              height: 90,
             }}
             source={{
               uri: `${item.image}`,
             }}
           />
-          <View style={{
-            marginTop : 0,
-          }}>
-            <Text style={styles.itemText}>{item.title}</Text>
-            <View style={{
-              alignContent : 'flex-end',
-              justifyContent : 'flex-end',
+          <View
+            style={{
+              marginTop: 0,
             }}>
-            <Text style={styles.priceText}>{item.price}</Text>
+            <Text style={styles.itemText}>{item.title}</Text>
+            <View
+              style={{
+                alignContent: 'flex-end',
+                justifyContent: 'flex-end',
+              }}>
+              <Text style={styles.priceText}>{item.price}</Text>
             </View>
           </View>
         </TouchableOpacity>
@@ -145,8 +147,8 @@ const styles = StyleSheet.create({
   priceText: {
     color: 'red',
     justifyContent: 'flex-end',
-    alignContent : 'flex-end',
-    marginStart : 50,
+    alignContent: 'flex-end',
+    marginStart: 50,
     fontSize: 8,
   },
   gridStyle: {
